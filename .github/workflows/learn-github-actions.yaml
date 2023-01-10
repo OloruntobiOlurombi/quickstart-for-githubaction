@@ -11,5 +11,7 @@ jobs:
           node-version: '14'
       - run: npm install -g bats 
       - run: bats -v     
-      - run: touch index.txt
+      - shell: bash
+        run: |
+          touch index.txt
       - run: echo "file was created!"
