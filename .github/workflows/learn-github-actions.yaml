@@ -23,5 +23,5 @@ jobs:
       - name: Call a Bash Script
         run: |
           chmod +x ./while.sh 
-          ./while.sh 
+          sh ./while.sh 
         shell: bash  
